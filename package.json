@@ -1,0 +1,11 @@
+{
+  "name": "soa-frontend",
+  "version": "1.0.0",
+  "description": "SOA Lab Frontend",
+  "scripts": {
+    "start": "npx serve ."
+  },
+  "dependencies": {
+    "serve": "^14.2.3"
+  }
+}
