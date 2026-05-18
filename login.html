@@ -51,7 +51,7 @@ async function login() {
     </soapenv:Envelope>`;
 
   try {
-    const res  = await fetch('http://165.22.96.131:4000/soap', {
+    const res  = await fetch('https://user-soap-service-h8m4e.ondigitalocean.app/soap', {
       method: 'POST',
       headers: { 'Content-Type': 'text/xml', 'SOAPAction': 'LoginUser' },
       body: soap
