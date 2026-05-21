@@ -62,7 +62,7 @@ async function register() {
     </soapenv:Envelope>`;
 
   try {
-    const res  = await fetch('https://user-soap-service-h8m4e.ondigitalocean.app/soap', {
+    const res  = await fetch('http://165.22.96.131:8080/api/soap', {
       method: 'POST',
       headers: { 'Content-Type': 'text/xml', 'SOAPAction': 'RegisterUser' },
       body: soap
